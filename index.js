@@ -42,15 +42,14 @@ function convert1() {
     if (ftoc == false) {
         outie = innie.value * (9/5) + 32 ;
         farenval = outie;
-        out1.innerHTML = outie.toFixed(1) + '°F';
+        out1.innerHTML = outie.toFixed(1) + '°F ' + innie.value + '°C';
         red = Math.floor(outie / 100 * 255);
         blue = Math.floor((100 - outie)/100 * 255);
         green = Math.floor(((50 - Math.abs (50 - outie)) / 50) * 196);
         farenval = outie;
     } else {
         outie = (innie.value - 32) * (5/9);
-        out1.innerHTML = outie.toFixed(1) + '°C';
-
+        out1.innerHTML = outie.toFixed(1) + '°C' + innie.value + '°F';
         red = Math.floor(innie.value / 100 * 255);
         blue = Math.floor((100 - innie.value)/100 * 255);
         green = Math.floor(((50 - Math.abs (50 - innie.value)) / 50) * 220);
