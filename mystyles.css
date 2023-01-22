@@ -11,7 +11,9 @@ body {
 }
 .padme {
     padding: 10px;
-    border-color: aquamarine;
+    border-color: rgb(152, 255, 241);
+    border-radius: 40px;
+    outline: 0px;
     background: rgb(239, 255, 238);
     font-family: 'Gotham', sans-serif;
     font-family: 'Gotham Black', sans-serif;

@@ -49,7 +49,7 @@ function convert1() {
         farenval = outie;
     } else {
         outie = (innie.value - 32) * (5/9);
-        out1.innerHTML = outie.toFixed(1) + '°C' + innie.value + '°F';
+        out1.innerHTML = outie.toFixed(1) + '°C ' + innie.value + '°F';
         red = Math.floor(innie.value / 100 * 255);
         blue = Math.floor((100 - innie.value)/100 * 255);
         green = Math.floor(((50 - Math.abs (50 - innie.value)) / 50) * 220);
