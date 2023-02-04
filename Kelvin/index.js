@@ -40,7 +40,7 @@ window.onload = getcha()
 function convert1() {
         outie = (innie.value - 273.15) * 9/5 + 32;
         farenval = outie;
-        out1.innerHTML = outie.toFixed(1) + '°F ' + (innie.value - 273.15).toFixed(1) + '°C';
+        out1.innerHTML = outie.toFixed(1) + '°F ' + (innie.value - 273.15).toFixed(1) + '°C ' + innie.value + '°K';
         red = Math.floor(outie / 100 * 255);
         blue = Math.floor((100 - outie)/100 * 255);
         green = Math.floor(((50 - Math.abs (50 - outie)) / 50) * 196);
@@ -78,4 +78,7 @@ function convert1() {
     theColor = `rgb(${red}, ${green}, ${blue})`;
     getcha();
     innie.value = '';
+}
+function switchTab() {
+    window.location.href = "../index.html"
 }
