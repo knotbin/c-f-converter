@@ -103,3 +103,6 @@ function switch1() {
         out1.innerHTML = null
     }
 }
+function switchTab() {
+    window.location.href = "Kelvin/index.html"
+}
