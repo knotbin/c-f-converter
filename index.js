@@ -94,13 +94,14 @@ function switch1() {
     if (ftoc == false) {
         ftoc = true
         innie.placeholder = 'Enter Fahrenheit'
+        innie.value = '';
+        out1.innerHTML = null
     } else {
         ftoc = false
         innie.placeholder = 'Enter Celcius'
+        innie.value = '';
+        out1.innerHTML = null
     }
-    innie.value = '';
-    out1.innerHTML = null
-    out2.innerHTML = null
 }
 function switchTab() {
     window.location.href = "Kelvin/index.html"
