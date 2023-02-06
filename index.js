@@ -101,6 +101,7 @@ function switch1() {
     innie.value = '';
     out1.innerHTML = null;
     out2.innerHTMl = null;
+    console.log('switch')
 }
 function switchTab() {
     window.location.href = "Kelvin/index.html"
