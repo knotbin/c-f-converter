@@ -100,7 +100,8 @@ function switch1() {
         ftoc = false
         innie.placeholder = 'Enter Celcius'
         innie.value = '';
-        out1.innerHTML = null
+        out1.innerHTML = null;
+        out2.innerHTMl = null;
     }
 }
 function switchTab() {
