@@ -103,5 +103,6 @@ function switch1() {
     out2.innerHTML = null
 }
 function switchTab() {
+    //switching to kelvin converter
     window.location.href = "Kelvin/index.html"
 }
